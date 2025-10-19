@@ -8,6 +8,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  bottom: 0;
 
   .footer-notice {
     font-family: segoeUIreg;
