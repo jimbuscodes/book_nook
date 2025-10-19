@@ -1,0 +1,12 @@
+{
+  "name": "book_nook",
+  "version": "1.0.0",
+  "description": "n315 assignment 5",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w --no-source-map"
+  },
+  "author": "",
+  "license": "ISC"
+}
