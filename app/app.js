@@ -1,4 +1,4 @@
-import { changePage } from "../model/model";
+import { changePage } from "../model/model.js";
 
 // listeners
 function initListeners() {}
