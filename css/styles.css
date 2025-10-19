@@ -142,3 +142,43 @@ footer .footer-socials img {
   height: 44px;
   margin-right: 20px;
 }
+
+.home-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home-content .home-hero-wrapper {
+  width: 100%;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.home-content .home-hero-wrapper .home-hero {
+  position: relative;
+  width: 100%;
+  height: 530px;
+  background-image: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url("../images/home-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home-content .home-hero-wrapper .home-hero .hero-text {
+  position: absolute;
+  left: 70%;
+  top: 50%;
+}
+.home-content .home-hero-wrapper .home-hero .hero-text p {
+  font-family: segoeUIbold;
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+.home-content .home-hero-wrapper .home-hero .hero-text .sub {
+  font-family: segoeUIreg;
+  font-size: 16px;
+  margin-top: 10px;
+}
