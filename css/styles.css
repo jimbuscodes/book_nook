@@ -391,3 +391,57 @@ footer .footer-socials img {
   font-size: 16px;
   margin-bottom: 20px;
 }
+
+.blog2-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.blog2-content .blog2-hero-wrapper {
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.blog2-content .blog2-hero-wrapper .blog2-hero {
+  height: 463px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url("../images/book-club-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+.blog2-content .blog2-hero-wrapper .blog2-hero .b2-hero-title {
+  font-family: segoeUIbold;
+  font-size: 32px;
+  color: #fff;
+}
+.blog2-content .blog2-hero-wrapper .blog2-hero .b2-hero-subtitle {
+  font-family: segoeUIbold;
+  font-size: 26px;
+  color: #fff;
+}
+.blog2-content .b2-article {
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 600px;
+}
+.blog2-content .b2-article img {
+  width: 40%;
+  height: 463px;
+  margin-right: 25px;
+}
+.blog2-content .b2-article .b2-text {
+  font-family: segoeUIreg;
+  font-size: 16px;
+}
